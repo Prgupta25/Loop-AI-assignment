@@ -164,11 +164,11 @@ Below are screenshots demonstrating the API interaction using a tool like Postma
 
 **Ingestion Request Example:**
 
-![Ingestion Request Example](images/ingestion-request.png)
+![Ingestion Request Example](images/ingestion-request.jpg)
 
 **Status Check Example:**
 
-![Status Check Example](images/status-check.png)
+![Status Check Example](images/status-check.jpg)
 
 ---
 
