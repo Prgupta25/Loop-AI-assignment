@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Data Ingestion System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>body {
+  color: #333;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 0 2px 10px #0000001a;
+}
+
+h1, h2 {
+  color: #0056b3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  display: block;
+}
+
+input[type="text"], select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color .3s;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 40px 0;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: #e9ecef;
+  border-radius: 4px;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+.result-section {
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Data Ingestion System</h1>
+
+    <h2>Ingestion Request</h2>
+    <form id="ingest-form">
+      <label for="ids">IDs:</label>
+      <input type="text" id="ids" required="">
+
+      <label for="priority">Priority:</label>
+      <select id="priority">
+        <option value="HIGH">HIGH</option>
+        <option value="MEDIUM">MEDIUM</option>
+        <option value="LOW">LOW</option>
+      </select>
+
+      <button type="submit">Ingest</button>
+    </form>
+
+    <div class="result-section" id="ingest-result"></div>
+
+    <hr>
+
+    <h2>Check Status</h2>
+    <form id="status-form">
+      <label for="ingestion-id">Ingestion ID:</label>
+      <input type="text" id="ingestion-id" required="">
+
+      <button type="submit">Check Status</button>
+    </form>
+
+    <div class="result-section" id="status-result"></div>
+  </div>
+
+  <script src="/public.de158e3a.js"></script>
+
+ <script src="/public.0ba7c674.js"></script></body></html>
